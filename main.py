@@ -1,6 +1,10 @@
 import requests
 
-coins = ["BTC", "ETH", "BNB", "SOL", "XRP", "LTC"]
+coins = [
+	"BTC", "ETH", "BNB",
+	"SOL", "XRP", "LTC",
+	"BCH", "ADA", "TRX"
+]
 
 print("💰 Текущие цены на Binance")
 print("=" * 40)
